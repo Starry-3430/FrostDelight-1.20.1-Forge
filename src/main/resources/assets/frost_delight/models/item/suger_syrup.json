@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-    "textures": {
-        "layer0": "frost_delight:item/suger_syrup"
-    }
-}
