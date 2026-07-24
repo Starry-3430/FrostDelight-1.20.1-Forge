@@ -4,8 +4,6 @@
 
 ---
 
-# Frozen Delights Alpha 版本内容规划
-
 ## 一、基础新增材料（由原版材料加工）
 
 这些是模组核心材料。
@@ -735,38 +733,38 @@ Alpha：
 
 
 ---
-  assets\frost_delight\
-    textures\
-      item\
-        material\
-          sugar_syrup.png
-          cream.png
-          butter.png
-          vanilla.png
-          ice_shard.png
-          fruit_puree.png
-        tool\
-          ice_cream_bowl.png
-          popsicle_stick.png
-          popsicle_mold.png
-        food\
-          milk_popsicle.png
-          apple_popsicle.png
-          watermelon_popsicle.png
-          sweet_berry_popsicle.png
-          honey_popsicle.png
-          vanilla_ice_cream.png
-          chocolate_ice_cream.png
-          sweet_berry_ice_cream.png
-          watermelon_ice_cream.png
-          honey_ice_cream.png
-      block\
-        machine\
-          ice_cream_machine.png
-          freezing_machine.png
-          mixer.png
-        food\
-          ice_cream_scoop.png
+    assets\frost_delight\
+      textures\
+        item\
+          material\
+            sugar_syrup.png
+            cream.png
+            butter.png
+            vanilla.png
+            ice_shard.png
+            fruit_puree.png
+          tool\
+            ice_cream_bowl.png
+            popsicle_stick.png
+            popsicle_mold.png
+          food\
+            milk_popsicle.png
+            apple_popsicle.png
+            watermelon_popsicle.png
+            sweet_berry_popsicle.png
+            honey_popsicle.png
+            vanilla_ice_cream.png
+            chocolate_ice_cream.png
+            sweet_berry_ice_cream.png
+            watermelon_ice_cream.png
+            honey_ice_cream.png
+        block\
+          machine\
+            ice_cream_machine.png
+            freezing_machine.png
+            mixer.png
+          food\
+            ice_cream_scoop.png
 ---
     models\
       item\
