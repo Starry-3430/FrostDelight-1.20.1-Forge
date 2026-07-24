@@ -1,6 +1,7 @@
 package com.starry3430.frost_delight;
 
 import com.mojang.logging.LogUtils;
+import com.starry3430.frost_delight.item.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,6 +33,7 @@ public class FrostDelight
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+        ModItems.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
