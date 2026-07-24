@@ -17,13 +17,13 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FrostDelight.MOD_ID);
 
-    public static final RegistryObject<Block> ICE_CREAM_MACHINE = registerBlock("ice_cream_machine",
+    public static final RegistryObject<Block> ICE_CREAM_MACHINE = registerBlock("machine/ice_cream_machine",
             () -> new Block(BlockBehaviour.Properties.of().strength(2.5F).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> FREEZING_MACHINE = registerBlock("freezing_machine",
+    public static final RegistryObject<Block> FREEZING_MACHINE = registerBlock("machine/freezing_machine",
             () -> new Block(BlockBehaviour.Properties.of().strength(2.5F).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> MIXER = registerBlock("mixer",
+    public static final RegistryObject<Block> MIXER = registerBlock("machine/mixer",
             () -> new Block(BlockBehaviour.Properties.of().strength(2.5F).requiresCorrectToolForDrops()));
-    public static final RegistryObject<Block> ICE_CREAM_SCOOP = registerBlock("ice_cream_scoop",
+    public static final RegistryObject<Block> ICE_CREAM_SCOOP = registerBlock("food/ice_cream_scoop",
             () -> new Block(BlockBehaviour.Properties.of().strength(1.0F).requiresCorrectToolForDrops()));
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {

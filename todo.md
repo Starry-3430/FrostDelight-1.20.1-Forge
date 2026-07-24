@@ -797,3 +797,118 @@ Alpha：
           mixer.json
         food\
           ice_cream_scoop.json
+---
+[]
+糖浆
+Sugar Syrup
+textures\item\material\sugar_syrup.png
+
+[]
+奶油
+Cream
+textures\item\material\cream.png
+
+[]
+黄油
+Butter
+textures\item\material\butter.png
+
+[]
+香草
+Vanilla
+textures\item\material\vanilla.png
+
+[]
+碎冰
+Ice Shard
+textures\item\material\ice_shard.png
+
+[]
+水果泥
+Fruit Puree
+textures\item\material\fruit_puree.png
+
+[]
+冰淇淋碗
+Ice Cream Bowl
+textures\item\tool\ice_cream_bowl.png
+
+[]
+冰棒棍
+Popsicle Stick
+textures\item\tool\popsicle_stick.png
+
+[]
+冰棒模具
+Popsicle Mold
+textures\item\tool\popsicle_mold.png
+
+[]
+牛奶冰棒
+Milk Popsicle
+textures\item\food\milk_popsicle.png
+
+[]
+苹果冰棒
+Apple Popsicle
+textures\item\food\apple_popsicle.png
+
+[]
+西瓜冰棒
+Watermelon Popsicle
+textures\item\food\watermelon_popsicle.png
+
+[]
+甜浆果冰棒
+Sweet Berry Popsicle
+textures\item\food\sweet_berry_popsicle.png
+
+[]
+蜂蜜冰棒
+Honey Popsicle
+textures\item\food\honey_popsicle.png
+
+[]
+原味冰淇淋
+Vanilla Ice Cream
+textures\item\food\vanilla_ice_cream.png
+
+[]
+巧克力冰淇淋
+Chocolate Ice Cream
+textures\item\food\chocolate_ice_cream.png
+
+[]
+甜浆果冰淇淋
+Sweet Berry Ice Cream
+textures\item\food\sweet_berry_ice_cream.png
+
+[]
+西瓜冰淇淋
+Watermelon Ice Cream
+textures\item\food\watermelon_ice_cream.png
+
+[]
+蜂蜜冰淇淋
+Honey Ice Cream
+textures\item\food\honey_ice_cream.png
+
+[]
+冰淇淋机
+Ice Cream Machine
+textures\block\machine\ice_cream_machine.png
+
+[]
+冷冻机
+Freezing Machine
+textures\block\machine\freezing_machine.png
+
+[]
+搅拌机
+Mixer
+textures\block\machine\mixer.png
+
+[]
+冰淇淋球
+Ice Cream Scoop
+textures\block\food\ice_cream_scoop.png 

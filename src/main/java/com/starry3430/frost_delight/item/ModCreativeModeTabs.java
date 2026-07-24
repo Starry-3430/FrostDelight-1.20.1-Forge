@@ -40,10 +40,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.WATERMELON_ICE_CREAM.get());
                         output.accept(ModItems.HONEY_ICE_CREAM.get());
                         //方块
-                        output.accept(new ItemStack(ModBlocks.ICE_CREAM_MACHINE.get()));
-                        output.accept(new ItemStack(ModBlocks.FREEZING_MACHINE.get()));
-                        output.accept(new ItemStack(ModBlocks.MIXER.get()));
-                        output.accept(new ItemStack(ModBlocks.ICE_CREAM_SCOOP.get()));
+                        output.accept(ModBlocks.ICE_CREAM_MACHINE.get());
+                        output.accept(ModBlocks.FREEZING_MACHINE.get());
+                        output.accept(ModBlocks.MIXER.get());
+                        output.accept(ModBlocks.ICE_CREAM_SCOOP.get());
                     })
                     .build());
 
