@@ -733,6 +733,8 @@ Alpha：
 而且代码结构上也容易维护：
 **Ingredient（原料）→ Processing（机器）→ Food（食物）→ Effect（效果）→ Placement（方块化）**，后续加入新口味只需要添加数据文件即可。
 
+
+---
   assets\frost_delight\
     textures\
       item\
@@ -765,7 +767,7 @@ Alpha：
           mixer.png
         food\
           ice_cream_scoop.png
-//////////////////////////
+---
     models\
       item\
         material\
