@@ -868,7 +868,7 @@ textures\item\food\sweet_berry_popsicle.png
 Honey Popsicle
 textures\item\food\honey_popsicle.png
 
-[]
+[x]
 原味冰淇淋
 Vanilla Ice Cream
 textures\item\food\vanilla_ice_cream.png
