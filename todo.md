@@ -816,12 +816,12 @@ textures\item\material\cream.png
 Butter
 textures\item\material\butter.png
 
-[]
+[x]
 香草香精
 Vanilla Flavoring
 textures\item\material\vanilla_flavoring.png
 
-[]
+[x]
 碎冰
 Ice Shard
 textures\item\material\ice_shard.png
@@ -846,27 +846,27 @@ textures\item\tool\popsicle_stick.png
 Popsicle Mold
 textures\item\tool\popsicle_mold.png
 
-[]
+[x]
 牛奶冰棒
 Milk Popsicle
 textures\item\food\milk_popsicle.png
 
-[]
+[x]
 苹果冰棒
 Apple Popsicle
 textures\item\food\apple_popsicle.png
 
-[]
+[x]
 西瓜冰棒
 Watermelon Popsicle
 textures\item\food\watermelon_popsicle.png
 
-[]
+[x]
 甜浆果冰棒
 Sweet Berry Popsicle
 textures\item\food\sweet_berry_popsicle.png
 
-[]
+[x]
 蜂蜜冰棒
 Honey Popsicle
 textures\item\food\honey_popsicle.png
