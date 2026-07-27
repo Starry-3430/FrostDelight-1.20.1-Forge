@@ -23,7 +23,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SUGAR_SYRUP.get());
                         output.accept(ModItems.CREAM.get());
                         output.accept(ModItems.BUTTER.get());
-                        output.accept(ModItems.VANILLA.get());
+                        output.accept(ModItems.VANILLA_FLAVORING.get());
                         output.accept(ModItems.ICE_SHARD.get());
                         output.accept(ModItems.FRUIT_PUREE.get());
                         output.accept(ModItems.ICE_CREAM_BOWL.get());

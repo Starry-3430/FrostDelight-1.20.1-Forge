@@ -16,7 +16,7 @@ public class ModItems {
     public static final RegistryObject<Item> SUGAR_SYRUP = register("material/sugar_syrup");
     public static final RegistryObject<Item> CREAM = register("material/cream");
     public static final RegistryObject<Item> BUTTER = register("material/butter");
-    public static final RegistryObject<Item> VANILLA = register("material/vanilla");
+    public static final RegistryObject<Item> VANILLA_FLAVORING = register("material/vanilla_flavoring");
     public static final RegistryObject<Item> ICE_SHARD = register("material/ice_shard");
     public static final RegistryObject<Item> FRUIT_PUREE = register("material/fruit_puree");
 
