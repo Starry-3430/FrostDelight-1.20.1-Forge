@@ -156,44 +156,6 @@ ice_shard
 
 ---
 
-# 6. 水果泥 Fruit Puree
-
-英文名：
-
-```
-fruit_puree
-```
-
-这是一个通用材料。
-
-获取：
-
-例如：
-
-苹果：
-
-```
-苹果 Apple
-
-↓
-
-水果泥 Fruit Puree
-```
-
-NBT记录水果类型：
-
-例如：
-
-```
-fruit=apple
-```
-
-优势：
-
-不用制作几十个材料。
-
----
-
 # 二、基础机器
 
 ---
@@ -216,7 +178,6 @@ ice_cream_machine
 牛奶
 奶油
 糖
-水果泥
 巧克力
 ```
 
@@ -507,7 +468,6 @@ vanilla_ice_cream
 
 ```
 奶油
-糖浆
 香草香精
 ```
 
@@ -745,7 +705,6 @@ Alpha：
             butter.png
             vanilla.png
             ice_shard.png
-            fruit_puree.png
           tool\
             ice_cream_bowl.png
             popsicle_stick.png
@@ -777,7 +736,6 @@ Alpha：
           butter.json
           vanilla.json
           ice_shard.json
-          fruit_puree.json
         tool\
           ice_cream_bowl.json
           popsicle_stick.json
@@ -826,11 +784,6 @@ textures\item\material\vanilla_flavoring.png
 Ice Shard
 textures\item\material\ice_shard.png
 
-[]
-水果泥
-Fruit Puree
-textures\item\material\fruit_puree.png
-
 [x]
 冰淇淋碗
 Ice Cream Bowl
@@ -841,10 +794,15 @@ textures\item\tool\ice_cream_bowl.png
 Popsicle Stick
 textures\item\tool\popsicle_stick.png
 
-[]
+[x]
 冰棒模具
 Popsicle Mold
 textures\item\tool\popsicle_mold.png
+
+[x]
+冰棒套
+Popsicle Sleeve
+textures\item\tool\popsicle_sleeve.png
 
 [x]
 牛奶冰棒

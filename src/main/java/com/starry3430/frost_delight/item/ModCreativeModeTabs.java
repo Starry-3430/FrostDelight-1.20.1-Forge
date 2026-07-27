@@ -20,25 +20,28 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModItems.SUGAR_SYRUP.get()))
                     .displayItems((pParameters, output) -> {
                         //物品
-                        output.accept(ModItems.SUGAR_SYRUP.get());
-                        output.accept(ModItems.CREAM.get());
-                        output.accept(ModItems.BUTTER.get());
-                        output.accept(ModItems.VANILLA_FLAVORING.get());
-                        output.accept(ModItems.ICE_SHARD.get());
-                        output.accept(ModItems.FRUIT_PUREE.get());
-                        output.accept(ModItems.ICE_CREAM_BOWL.get());
-                        output.accept(ModItems.POPSICLE_STICK.get());
-                        output.accept(ModItems.POPSICLE_MOLD.get());
-                        output.accept(ModItems.MILK_POPSICLE.get());
-                        output.accept(ModItems.APPLE_POPSICLE.get());
-                        output.accept(ModItems.WATERMELON_POPSICLE.get());
-                        output.accept(ModItems.SWEET_BERRY_POPSICLE.get());
-                        output.accept(ModItems.HONEY_POPSICLE.get());
                         output.accept(ModItems.VANILLA_ICE_CREAM.get());
                         output.accept(ModItems.CHOCOLATE_ICE_CREAM.get());
                         output.accept(ModItems.SWEET_BERRY_ICE_CREAM.get());
                         output.accept(ModItems.WATERMELON_ICE_CREAM.get());
                         output.accept(ModItems.HONEY_ICE_CREAM.get());
+
+                        output.accept(ModItems.MILK_POPSICLE.get());
+                        output.accept(ModItems.APPLE_POPSICLE.get());
+                        output.accept(ModItems.WATERMELON_POPSICLE.get());
+                        output.accept(ModItems.SWEET_BERRY_POPSICLE.get());
+                        output.accept(ModItems.HONEY_POPSICLE.get());
+
+                        output.accept(ModItems.SUGAR_SYRUP.get());
+                        output.accept(ModItems.CREAM.get());
+                        output.accept(ModItems.BUTTER.get());
+                        output.accept(ModItems.VANILLA_FLAVORING.get());
+                        output.accept(ModItems.ICE_SHARD.get());
+                        output.accept(ModItems.ICE_CREAM_BOWL.get());
+                        output.accept(ModItems.POPSICLE_STICK.get());
+                        output.accept(ModItems.POPSICLE_MOLD.get());
+                        output.accept(ModItems.POPSICLE_SLEEVE.get());
+
                         //方块
                         output.accept(ModBlocks.ICE_CREAM_MACHINE.get());
                         output.accept(ModBlocks.FREEZING_MACHINE.get());

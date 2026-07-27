@@ -4,10 +4,10 @@
   "item.frost_delight.material.butter": "Butter",
   "item.frost_delight.material.vanilla_flavoring": "Vanilla Flavoring",
   "item.frost_delight.material.ice_shard": "Ice Shard",
-  "item.frost_delight.material.fruit_puree": "Fruit Puree",
   "item.frost_delight.tool.ice_cream_bowl": "Ice Cream Bowl",
   "item.frost_delight.tool.popsicle_stick": "Popsicle Stick",
   "item.frost_delight.tool.popsicle_mold": "Popsicle Mold",
+  "item.frost_delight.tool.popsicle_sleeve": "Popsicle Sleeve",
   "item.frost_delight.food.milk_popsicle": "Milk Popsicle",
   "item.frost_delight.food.apple_popsicle": "Apple Popsicle",
   "item.frost_delight.food.watermelon_popsicle": "Watermelon Popsicle",
@@ -24,4 +24,3 @@
   "block.frost_delight.machine.mixer": "Mixer",
   "block.frost_delight.food.ice_cream_scoop": "Ice Cream Scoop"
 }
-
