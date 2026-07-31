@@ -1,12 +1,6 @@
-<<<<<<<< HEAD:src/main/java/com/github/starry3430/frost_delight/init/ModCreativeModeTabs.java
 package com.github.starry3430.frost_delight.init;
 
 import com.github.starry3430.frost_delight.FrostDelight;
-========
-package com.starry3430.frost_delight.init;
-
-import com.starry3430.frost_delight.FrostDelight;
->>>>>>>> origin/master-alpha:src/main/java/com/starry3430/frost_delight/init/ModCreativeModeTabs.java
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
