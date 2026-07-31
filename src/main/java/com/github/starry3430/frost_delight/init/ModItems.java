@@ -1,6 +1,12 @@
+<<<<<<<< HEAD:src/main/java/com/github/starry3430/frost_delight/init/ModItems.java
 package com.github.starry3430.frost_delight.init;
 
 import com.github.starry3430.frost_delight.FrostDelight;
+========
+package com.starry3430.frost_delight.init;
+
+import com.starry3430.frost_delight.FrostDelight;
+>>>>>>>> origin/master-alpha:src/main/java/com/starry3430/frost_delight/init/ModItems.java
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
