@@ -1,7 +1,6 @@
-package com.starry3430.frost_delight.item;
+package com.github.starry3430.frost_delight.init;
 
-import com.starry3430.frost_delight.FrostDelight;
-import com.starry3430.frost_delight.block.ModBlocks;
+import com.github.starry3430.frost_delight.FrostDelight;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -43,10 +42,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POPSICLE_SLEEVE.get());
 
                         //方块
-                        output.accept(ModBlocks.ICE_CREAM_MACHINE.get());
-                        output.accept(ModBlocks.FREEZING_MACHINE.get());
-                        output.accept(ModBlocks.MIXER.get());
-                        output.accept(ModBlocks.ICE_CREAM_SCOOP.get());
+                        output.accept(ModItems.ICE_CREAM_MACHINE.get());
+                        output.accept(ModItems.FREEZING_MACHINE.get());
+                        output.accept(ModItems.MIXER.get());
+                        output.accept(ModItems.ICE_CREAM_SCOOP.get());
                     })
                     .build());
 

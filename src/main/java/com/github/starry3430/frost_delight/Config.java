@@ -1,4 +1,4 @@
-package com.starry3430.frost_delight;
+package com.github.starry3430.frost_delight;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
