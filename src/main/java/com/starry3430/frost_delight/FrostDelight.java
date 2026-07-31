@@ -1,9 +1,9 @@
 package com.starry3430.frost_delight;
 
 import com.mojang.logging.LogUtils;
-import com.starry3430.frost_delight.block.ModBlocks;
-import com.starry3430.frost_delight.item.ModCreativeModeTabs;
-import com.starry3430.frost_delight.item.ModItems;
+import com.starry3430.frost_delight.init.ModBlocks;
+import com.starry3430.frost_delight.init.ModCreativeModeTabs;
+import com.starry3430.frost_delight.init.ModItems;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -36,8 +36,8 @@ public class FrostDelight
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in

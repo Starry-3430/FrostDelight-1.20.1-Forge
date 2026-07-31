@@ -1,7 +1,7 @@
-package com.starry3430.frost_delight.block;
+package com.starry3430.frost_delight.init;
 
 import com.starry3430.frost_delight.FrostDelight;
-import com.starry3430.frost_delight.item.ModItems;
+import com.starry3430.frost_delight.block.IceCreamMachine;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -17,8 +17,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FrostDelight.MOD_ID);
 
-    public static final RegistryObject<Block> ICE_CREAM_MACHINE = registerBlock("machine/ice_cream_machine",
-            () -> new Block(BlockBehaviour.Properties.of().strength(2.5F).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> ICE_CREAM_MACHINE = BLOCKS.register("machine/ice_cream_machine", IceCreamMachine::new);
     public static final RegistryObject<Block> FREEZING_MACHINE = registerBlock("machine/freezing_machine",
             () -> new Block(BlockBehaviour.Properties.of().strength(2.5F).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> MIXER = registerBlock("machine/mixer",

@@ -1,6 +1,7 @@
-package com.starry3430.frost_delight.item;
+package com.starry3430.frost_delight.init;
 
 import com.starry3430.frost_delight.FrostDelight;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -37,6 +38,12 @@ public class ModItems {
     public static final RegistryObject<Item> POPSICLE_STICK = register("tool/popsicle_stick");
     public static final RegistryObject<Item> POPSICLE_MOLD = register("tool/popsicle_mold");
     public static final RegistryObject<Item> POPSICLE_SLEEVE = register("tool/popsicle_sleeve");
+
+    //方块
+    public static RegistryObject<Item> ICE_CREAM_MACHINE = ITEMS.register("ice_cream_machine", () -> new BlockItem(ModBlocks.ICE_CREAM_MACHINE.get(), new Item.Properties()));
+    public static RegistryObject<Item> FREEZING_MACHINE = ITEMS.register("freezing_machine", () -> new BlockItem(ModBlocks.FREEZING_MACHINE.get(), new Item.Properties()));
+    public static RegistryObject<Item> MIXER = ITEMS.register("mixer", () -> new BlockItem(ModBlocks.MIXER.get(), new Item.Properties()));
+    public static RegistryObject<Item> ICE_CREAM_SCOOP = ITEMS.register("ice_cream_scoop", () -> new BlockItem(ModBlocks.ICE_CREAM_SCOOP.get(), new Item.Properties()));
 
     private static RegistryObject<Item> register(String name) {
         return ITEMS.register(name, () -> new Item(new Item.Properties()));
