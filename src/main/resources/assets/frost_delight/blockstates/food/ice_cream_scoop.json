@@ -1,5 +1,16 @@
 {
   "variants": {
-    "": { "model": "frost_delight:block/food/ice_cream_scoop" }
+    "scoop_bites=0": {
+      "model": "frost_delight:block/food/ice_cream_scoop"
+    },
+    "scoop_bites=1": {
+      "model": "frost_delight:block/food/ice_cream_scoop_bites1"
+    },
+    "scoop_bites=2": {
+      "model": "frost_delight:block/food/ice_cream_scoop_bites2"
+    },
+    "scoop_bites=3": {
+      "model": "frost_delight:block/food/ice_cream_scoop_bites3"
+    }
   }
 }

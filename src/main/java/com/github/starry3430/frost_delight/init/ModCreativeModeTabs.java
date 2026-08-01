@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.frost_delight_tab"))
                     .icon(() -> new ItemStack(ModItems.SUGAR_SYRUP.get()))
                     .displayItems((pParameters, output) -> {
-                        //物品
+                        // 物品
                         output.accept(ModItems.VANILLA_ICE_CREAM.get());
                         output.accept(ModItems.CHOCOLATE_ICE_CREAM.get());
                         output.accept(ModItems.SWEET_BERRY_ICE_CREAM.get());
@@ -41,10 +41,10 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.POPSICLE_MOLD.get());
                         output.accept(ModItems.POPSICLE_SLEEVE.get());
 
-                        //方块
+                        // 方块
                         output.accept(ModItems.ICE_CREAM_MACHINE.get());
                         output.accept(ModItems.FREEZING_MACHINE.get());
-                        output.accept(ModItems.MIXER.get());
+                        output.accept(ModItems.ICE_CREAM_MIXER.get());
                         output.accept(ModItems.ICE_CREAM_SCOOP.get());
                     })
                     .build());
