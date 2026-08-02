@@ -126,6 +126,7 @@ public class IceCreamScoop extends Block {
                 popResource(level, pos, new ItemStack(Items.BOWL));
             }
         }
+        super.playerDestroy(level, player, pos, state, blockEntity, tool);
 
     }
 
