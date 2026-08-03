@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "P P",
+    " P "
+  ],
+  "result": {
+    "item": "frost_delight:tool/ice_cream_bowl"
+  },
+  "show_notification": true
+}

@@ -28,8 +28,8 @@ public class ModItems {
 
     // material 材料
     public static final RegistryObject<Item> SUGAR_SYRUP = register("material/sugar_syrup");
-    public static final RegistryObject<Item> CREAM = register("material/cream");
-    public static final RegistryObject<Item> BUTTER = register("material/butter");
+    public static final RegistryObject<Item> CREAM = register("material/cream"); // 使用搅拌机合成
+    public static final RegistryObject<Item> BUTTER = register("material/butter"); // 使用搅拌机合成
     public static final RegistryObject<Item> VANILLA_FLAVORING = register("material/vanilla_flavoring");
     public static final RegistryObject<Item> ICE_SHARD = register("material/ice_shard");
 

@@ -44,6 +44,7 @@ public class IceCreamScoop extends Block {
                 .sound(SoundType.SNOW)
                 .strength(0.5F, 1.0F)
                 .noOcclusion()
+                .noLootTable()
         );
         // 最初的bites为0
         this.registerDefaultState(this.stateDefinition.any().setValue(SCOOP_BITES, 0));

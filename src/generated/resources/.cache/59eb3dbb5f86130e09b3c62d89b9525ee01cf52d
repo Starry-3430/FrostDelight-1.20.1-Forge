@@ -1,0 +1,4 @@
+// 1.20.1	2026-08-03T17:06:02.0647551	Loot Tables
+d1e5d5516c1509c4726734879f1ce9b6fd991452 data/frost_delight/loot_tables/blocks/machine/freezing_machine.json
+922c682f420327dde8125d32c1b6fffd56609efc data/frost_delight/loot_tables/blocks/machine/ice_cream_machine.json
+8488587c7f38b252060d1b3cf43c3c4d08f7db1a data/frost_delight/loot_tables/blocks/machine/ice_cream_mixer.json

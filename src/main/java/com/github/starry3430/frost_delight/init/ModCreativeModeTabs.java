@@ -13,10 +13,11 @@ public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MOD_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FrostDelight.MOD_ID);
 
+    // 设置物品
     public static final RegistryObject<CreativeModeTab> FROST_DELIGHT_TAB =
             CREATIVE_MOD_TABS.register("frost_delight_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.frost_delight_tab"))
-                    .icon(() -> new ItemStack(ModItems.SUGAR_SYRUP.get()))
+                    .icon(() -> new ItemStack(ModItems.VANILLA_ICE_CREAM.get()))
                     .displayItems((pParameters, output) -> {
                         // 物品
                         output.accept(ModItems.VANILLA_ICE_CREAM.get());

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "frost_delight:freezing_machine"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "frost_delight:blocks/machine/freezing_machine"
+}
