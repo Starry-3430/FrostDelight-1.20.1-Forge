@@ -5,7 +5,8 @@
 <div align="center">
     
 # Frost Delight: 冰言蜜语
-** 由 Starry 开发，目前仍在开发中（WIP） **
+
+**由 Starry 开发，目前仍在开发中（WIP）**
 
 </div>
 
