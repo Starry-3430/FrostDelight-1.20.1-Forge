@@ -3,8 +3,10 @@
 </p>
 
 <div align="center">
+    
 # Frost Delight: 冰言蜜语
 ** 由 Starry 开发，目前仍在开发中（WIP） **
+
 </div>
 
 > 一个关于冰淇淋、冰棒和甜品制作的小型 Minecraft Mod。
