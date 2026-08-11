@@ -26,23 +26,21 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy("has_sugar", has(Items.SUGAR))
                 .save(pWriter);
 
+
+        // 香草香精
+        // ⚠️未经过验证
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.VANILLA_FLAVORING.get(), 2)
+                .requires(Items.POTION, 2)
+                .requires(Items.SUGAR, 2)
+                .requires(Items.LILAC, 1)
+                .unlockedBy("has_sugar", has(Items.SUGAR))
+                .unlockedBy("has_lilac", has(Items.LILAC))
+                .save(pWriter);
+
         // 冰棒棍
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.POPSICLE_STICK.get(), 2)
                 .requires(Items.STICK)
                 .unlockedBy("has_stick", has(Items.STICK))
-                .save(pWriter);
-
-        // 冰激凌机
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ICE_CREAM_MACHINE.get())
-                .define('I', Items.IRON_INGOT)
-                .define('B', Blocks.ICE)
-                .define('S', Items.STICK)
-                .define('C', Blocks.CHEST)
-                .define('P', Blocks.SMOOTH_STONE)
-                .pattern("IBI")
-                .pattern("ISI")
-                .pattern("PCP")
-                .unlockedBy("has_iron", has(Items.IRON_INGOT))
                 .save(pWriter);
 
         // 冰激凌碗
@@ -69,5 +67,43 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .requires(ModItems.POPSICLE_SLEEVE.get())
                 .unlockedBy("has_popsicle_stick", has(ModItems.POPSICLE_STICK.get()))
                 .save(pWriter);
+
+        // ------- 方块合成
+        // 冰激凌机
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ICE_CREAM_MACHINE.get())
+                .define('I', Items.IRON_INGOT)
+                .define('B', Blocks.ICE)
+                .define('S', Items.STICK)
+                .define('C', Blocks.CHEST)
+                .define('P', Blocks.SMOOTH_STONE)
+                .pattern("IBI")
+                .pattern("ISI")
+                .pattern("PCP")
+                .unlockedBy("has_iron", has(Items.IRON_INGOT))
+                .save(pWriter);
+
+        // 搅拌机 ⚠️未验证，未生成
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ICE_CREAM_MIXER.get())
+                .define('I', Items.IRON_INGOT)
+                .define('S'. Items.STICK)
+                .define('B', Items.BUCKET)
+                .pattern(" I ")
+                .pattern("ISI")
+                .pattern("IBI")
+                .unlockedBy("has_stick", has(Items.STICK))
+                .unlockedBy("has_iron", has(Items.IRON_INGOT))
+                .save(pWriter);
+
+        // 冷冻机 ⚠️未验证，未生成
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FREEZING_MACHINE.get())
+                .define('I', Items.IRON_INGOT)
+                .define('F', Items.FURNACE)
+                .define('B', Items.BLUE_ICE)
+                .pattern("III")
+                .pattern("IFI")
+                .pattern("IBI")
+                .unlockedBy("has_stick", has(Items.STICK))
+                .save(pWriter);
+
     }
 }
