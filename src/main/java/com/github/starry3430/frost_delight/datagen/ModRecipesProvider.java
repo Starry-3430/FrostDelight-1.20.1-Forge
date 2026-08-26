@@ -82,10 +82,10 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy("has_iron", has(Items.IRON_INGOT))
                 .save(pWriter);
 
-        // 搅拌机 ⚠️未验证，未生成
+        // 搅拌机
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ICE_CREAM_MIXER.get())
                 .define('I', Items.IRON_INGOT)
-                .define('S'. Items.STICK)
+                .define('S', Items.STICK)
                 .define('B', Items.BUCKET)
                 .pattern(" I ")
                 .pattern("ISI")
@@ -94,7 +94,7 @@ public class ModRecipesProvider extends RecipeProvider implements IConditionBuil
                 .unlockedBy("has_iron", has(Items.IRON_INGOT))
                 .save(pWriter);
 
-        // 冷冻机 ⚠️未验证，未生成
+        // 冷冻机
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.FREEZING_MACHINE.get())
                 .define('I', Items.IRON_INGOT)
                 .define('F', Items.FURNACE)

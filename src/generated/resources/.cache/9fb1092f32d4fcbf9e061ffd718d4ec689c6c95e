@@ -1,12 +1,18 @@
-// 1.20.1	2026-08-03T17:24:34.2309844	Recipes
+// 1.20.1	2026-08-26T18:46:16.7689966	Recipes
+a5fa076552997e3b7ac4349ce0b2da55db18f693 data/frost_delight/advancements/recipes/misc/freezing_machine.json
 0d3b931a2a7f2bdd324ff3dfb0fdaba9f882c62b data/frost_delight/advancements/recipes/misc/ice_cream_machine.json
+3db9f9c753a3b25f9c571d1502238bdbe673f2d3 data/frost_delight/advancements/recipes/misc/ice_cream_mixer.json
 a25e2f84bcac7444e3723441ee4d03b3e45f6d67 data/frost_delight/advancements/recipes/misc/material/sugar_syrup.json
+3d4123eddef4070f9fdd7bcce3620599d9289a64 data/frost_delight/advancements/recipes/misc/material/vanilla_flavoring.json
 d6df597a81c71ba6ed4093cf0a7291dea7e43295 data/frost_delight/advancements/recipes/misc/tool/ice_cream_bowl.json
 d08a03406394e2ae9e5e2796c8ccf37159f20cac data/frost_delight/advancements/recipes/misc/tool/popsicle_mold.json
 e9bd0818342912ac7700df87d78a41ca8a152f40 data/frost_delight/advancements/recipes/misc/tool/popsicle_sleeve.json
 134f66dcf0a30408a72fd570ae948e6e6dfd0acf data/frost_delight/advancements/recipes/misc/tool/popsicle_stick.json
+8909b1c5d401294824ea6dbfe3a10e419923bcb0 data/frost_delight/recipes/freezing_machine.json
 4fcfdac419ad91c69335693a57e96fcfbdd8b033 data/frost_delight/recipes/ice_cream_machine.json
+06768170c6f5642b70d504d7e082bf7d5d49a2d5 data/frost_delight/recipes/ice_cream_mixer.json
 e7fa53fd3d8311b7681c56d21629663a5489705e data/frost_delight/recipes/material/sugar_syrup.json
+d1cbe00773b05ee66e12e040e34478f229754c93 data/frost_delight/recipes/material/vanilla_flavoring.json
 5a22fce12e7d775dbbc70ed37c0de03eb2f0ddcb data/frost_delight/recipes/tool/ice_cream_bowl.json
 70fb9defe9b4ca6bbada573ac73a2d28a08b093d data/frost_delight/recipes/tool/popsicle_mold.json
 233b750b5462aaf83a9de1b9da785004d11eb8b8 data/frost_delight/recipes/tool/popsicle_sleeve.json
