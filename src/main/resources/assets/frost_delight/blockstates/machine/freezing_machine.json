@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "frost_delight:block/machine/freezing_machine" }
+    "facing=north": { "model": "frost_delight:block/machine/freezing_machine" },
+    "facing=south": { "model": "frost_delight:block/machine/freezing_machine", "y": 180 },
+    "facing=west": { "model": "frost_delight:block/machine/freezing_machine", "y": 270 },
+    "facing=east": { "model": "frost_delight:block/machine/freezing_machine", "y": 90 }
   }
 }
