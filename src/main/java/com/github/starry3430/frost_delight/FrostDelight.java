@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import com.github.starry3430.frost_delight.init.ModBlocks;
 import com.github.starry3430.frost_delight.init.ModCreativeModeTabs;
 import com.github.starry3430.frost_delight.init.ModItems;
+import com.github.starry3430.frost_delight.init.ModRecipes;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.Blocks;
@@ -38,6 +39,7 @@ public class FrostDelight
         modEventBus.addListener(this::commonSetup);
         ModBlocks.register(modEventBus);
         ModItems.register(modEventBus);
+        ModRecipes.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
