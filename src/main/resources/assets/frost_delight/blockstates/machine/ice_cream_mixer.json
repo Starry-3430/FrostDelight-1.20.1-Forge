@@ -1,5 +1,8 @@
 {
   "variants": {
-    "": { "model": "frost_delight:block/machine/mixer" }
+    "facing=north": { "model": "frost_delight:block/machine/ice_cream_mixer" },
+    "facing=south": { "model": "frost_delight:block/machine/ice_cream_mixer", "y": 180 },
+    "facing=west": { "model": "frost_delight:block/machine/ice_cream_mixer", "y": 270 },
+    "facing=east": { "model": "frost_delight:block/machine/ice_cream_mixer", "y": 90 }
   }
 }
